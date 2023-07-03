@@ -1,0 +1,143 @@
+*{
+  list-style: none;
+  text-decoration: none;
+  /* margin: 10px; */
+  scroll-behavior: smooth;
+}
+.nav {
+  background-color: #a6a6a6;
+}
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #a6a6a6; */
+}
+ul li {
+  display: inline;
+  margin: 10px;
+  color: azure;
+}
+ul li a {
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: unset;
+  font-size: large;
+  letter-spacing: 1px;
+  align-items: center;
+  padding: 14px 16px;
+  text-align: center;
+}
+li a:hover {
+  background-color: #111;
+}
+.name2 {
+  justify-content: space-between;
+  background-color: cadetblue;
+  padding-top: 90px;
+}
+.name{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-style: unset;
+  font-size: x-large;
+  letter-spacing: 1px;
+  align-items: center;
+  padding: 14px 16px;
+  text-align: center;
+}
+.mm {
+  font-family: 'Courgette', cursive;
+font-family: 'Poppins', sans-serif;
+}
+.img {
+  /* justify-content: space-between; */
+  padding: 14px 16px;
+}
+.button2 {
+  background-color: #190e7e;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:  4px 2px;
+  cursor: pointer;
+}
+
+.link {padding: 12px 35px;
+color: aliceblue;
+font-family: 'Times New Roman', Times, serif;
+font-style: unset;
+font-size: x-large;}
+.one {
+  display: flex;
+  justify-content: space-around;
+}
+.Skills {
+  justify-content: space-between;
+  background-color: #a6a6a6;
+  padding-top: 90px;
+  text-align: center;
+  color: aliceblue;
+}
+.two {
+  display: flex;
+  justify-content: space-around;
+}
+.EDUCATION {
+  justify-content: space-between;
+  background-color: cadetblue;
+  padding-top: 90px;
+  text-align: center;
+  color: black;
+} 
+.three{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.EXPERINCE {
+  justify-content: space-between;
+  background-color: #a6a6a6;
+  padding-top: 90px;
+  text-align: center;
+  color: aliceblue;
+  text-align: center;
+  color: aliceblue;
+}
+.FOUR {
+  display: flex;
+  justify-content: space-around;
+}
+.PROJECT{
+  justify-content: space-between;
+  background-color: cadetblue;
+  padding-top: 90px;
+  text-align: center;
+  color: black;
+}
+.fiv {
+  display: flex;
+  justify-content: space-around;
+}
+.Contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: #a6a6a6;
+  padding-top: 90px;
+  text-align: center;
+  color: white;
+}
+footer {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  background-color: #a6a6a6;
+  padding-top: 90px;
+  text-align: center;
+  color: white;
+}
+.email {
+  padding: 10px 10px;
+}
