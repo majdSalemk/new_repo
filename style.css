@@ -5,34 +5,47 @@
   scroll-behavior: smooth;
 }
 .nav {
-  background-color: #a6a6a6;
+  background-image: url(./img/banner-design-geometric-hexagon-colorful-overlapping-with-background-free-vector.jpg);
+  position: sticky;
+  top: 0;
 }
 .nav1 {
   display: flex;
-  justify-content: space-between;
-  /* background-color: #a6a6a6; */
+  justify-content: space-around;
+  /* height: 5%; */
 }
-ul li {
+.logo-div{
+  width:15%;
+  height: 5%;
+}
+.logo {
+  /* margin: 3%; */
+  width:100%;
+  /* height: 20%; */
+  /* padding: 5%; */
+}
+/* ul li {
   display: inline;
-  margin: 10px;
-  color: azure;
-}
-ul li a {
-  color: aliceblue;
+  margin: auto;
+  color:black;
+  /* padding: 0%; */
+
+.nav6 a {
+  color: black;
   font-family: 'Times New Roman', Times, serif;
   font-style: unset;
-  font-size: large;
-  letter-spacing: 1px;
+  font-size: x-large;
+  letter-spacing:2%;
   align-items: center;
-  padding: 14px 16px;
+  padding:14px 16px;
   text-align: center;
 }
-li a:hover {
-  background-color: #111;
+.nav6 a:hover {
+  background-color: white;
 }
 .name2 {
   justify-content: space-between;
-  background-color: cadetblue;
+  background-image: url(./img/banner-design-geometric-hexagon-colorful-overlapping-with-background-free-vector.jpg);
   padding-top: 90px;
 }
 .name{
@@ -41,46 +54,69 @@ li a:hover {
   font-family: 'Poppins', sans-serif;
   font-style: unset;
   font-size: x-large;
-  letter-spacing: 1px;
+  letter-spacing: 50%;
   align-items: center;
-  padding: 14px 16px;
+  padding: 0;
   text-align: center;
+  margin: 5%;
 }
 .mm {
   font-family: 'Courgette', cursive;
 font-family: 'Poppins', sans-serif;
+margin: 18%;
 }
 .img {
   /* justify-content: space-between; */
   padding: 14px 16px;
 }
 .button2 {
-  background-color: #190e7e;
+  background-color: blue;
   border: none;
   color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin:  4px 2px;
+  font-size: 100%;
+  margin:  15% 18% ;
   cursor: pointer;
+  /* background-color: white;  */
+  color: black; 
+  border: 80% solid #008CBA;
 }
-
-.link {padding: 12px 35px;
+.button2:hover {
+  background-color: darkblue;
+  color: white;
+}
+h1 {
+  color: blue;
+}
+.link {padding: 0;
 color: aliceblue;
 font-family: 'Times New Roman', Times, serif;
 font-style: unset;
 font-size: x-large;}
-.one {
+/* .one {
   display: flex;
   justify-content: space-around;
-}
+} */
 .Skills {
   justify-content: space-between;
-  background-color: #a6a6a6;
-  padding-top: 90px;
+  background-image: url(./img/banner-design-geometric-hexagon-colorful-overlapping-with-background-free-vector.jpg);
+  padding-top: 0;
   text-align: center;
-  color: aliceblue;
+  color: black;
+  font-size: x-large;
+}
+.img7 {
+  display: flex;
+  justify-content: space-around;
+  font-size: center;
+  /* width: 100%;
+  height: 100%; */
+}
+.pref {
+  display: flex;
+  justify-content: space-around;
 }
 .two {
   display: flex;
@@ -88,10 +124,11 @@ font-size: x-large;}
 }
 .EDUCATION {
   justify-content: space-between;
-  background-color: cadetblue;
-  padding-top: 90px;
+  background-image: url(./img/banner-design-geometric-hexagon-colorful-overlapping-with-background-free-vector.jpg);
+  padding-top: 0;
   text-align: center;
   color: black;
+  font-size: x-large;
 } 
 .three{
   display: flex;
@@ -100,12 +137,13 @@ font-size: x-large;}
 }
 .EXPERINCE {
   justify-content: space-between;
-  background-color: #a6a6a6;
-  padding-top: 90px;
+  background-image: url(./img/banner-design-geometric-hexagon-colorful-overlapping-with-background-free-vector.jpg);
+  /* padding-top: 0x; */
   text-align: center;
-  color: aliceblue;
+  color: black;
   text-align: center;
-  color: aliceblue;
+  /* color: black; */
+  font-size: x-large;
 }
 .FOUR {
   display: flex;
@@ -113,10 +151,11 @@ font-size: x-large;}
 }
 .PROJECT{
   justify-content: space-between;
-  background-color: cadetblue;
-  padding-top: 90px;
+  background-image: url(./img/banner-design-geometric-hexagon-colorful-overlapping-with-background-free-vector.jpg);
+  /* padding-top: 0; */
   text-align: center;
   color: black;
+  font-size: x-large;
 }
 .fiv {
   display: flex;
@@ -125,19 +164,20 @@ font-size: x-large;}
 .Contact {
   display: flex;
   justify-content: space-around;
-  background-color: #a6a6a6;
-  padding-top: 90px;
+  background-image: url(./img/banner-design-geometric-hexagon-colorful-overlapping-with-background-free-vector.jpg);
+  /* padding-top: 0; */
   text-align: center;
-  color: white;
+  color: black;
+  font-size: x-large;
 }
-footer {
-  /* display: flex; */
-  /* justify-content: space-around; */
-  background-color: #a6a6a6;
-  padding-top: 90px;
-  text-align: center;
-  color: white;
+.fa-brands {
+  font-size: x-large;
 }
 .email {
-  padding: 10px 10px;
+  font-size: x-large;
+  text-align: center;
+  border: black;
 }
+/* // Example
+// Apply styles starting from medium devices and up to extra large devices
+@media (min-width: 768px) and (max-width: 1199.98px) { ... } */
