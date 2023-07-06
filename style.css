@@ -170,7 +170,9 @@ font-size: x-large;}
   width: 40%;
   /* border-radius: 5px; */
 }
-
+body {
+  background-image: url(./img/banner-design-geometric-hexagon-colorful-overlapping-with-background-free-vector.jpg);
+}
 .card2:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
